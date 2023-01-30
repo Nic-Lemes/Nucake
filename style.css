@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 ul {
   list-style: none;
 }
@@ -16,6 +20,12 @@ a{
 img {
  width: 100%;
  height: auto;
+}
+
+#foto-bolo {
+  width: 30px;
+  margin-top: 0px;
+  display: flexbox;
 }
 
 /*  ------------ VARIABLES ------------- */
