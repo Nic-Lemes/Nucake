@@ -358,7 +358,8 @@ nav.show div.icon-close {
 }
 
 p#ola {
-  font-size: 130%;
+  font-size: 22px;
+  font-style: bold;
   color: rgb(20, 20, 20);
 }
 
