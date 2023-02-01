@@ -277,6 +277,8 @@ nav.show div.icon-close {
 
 #home .image {
   position: relative;
+  width: 180%;
+  margin-left: -120px;
 }
 
 #home .image::before {
@@ -353,6 +355,11 @@ nav.show div.icon-close {
 #about .text {
  margin-left: 1.5rem;
  margin-right: 1.5rem;
+}
+
+p#ola {
+  font-size: 130%;
+  color: rgb(20, 20, 20);
 }
 
 /*  ------------ SERVICES ------------- */
