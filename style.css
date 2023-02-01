@@ -707,6 +707,7 @@ a.nicolas {
 }
 
 /* large devices: 1023 > */
+
 /* large devices: 992 > */
 @media (min-width: 992px) {
  :root {
@@ -718,3 +719,4 @@ a.nicolas {
 @media (min-width: 767px) {
 
 }
+
