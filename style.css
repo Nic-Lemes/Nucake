@@ -707,6 +707,51 @@ a.nicolas {
 }
 
 /* large devices: 1023 > */
+@media (min-width: 992px) {
+  :root {
+      --title-font-size: 2.25rem;
+      --subtitle-font-size: 1.125rem;
+  }
+
+  .container {
+    max-width: 1023px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+  }
+
+  a.logo {
+    margin-left: -200px;
+  }
+  
+  div.toggle.icon-menu {
+    margin-right: -200px;
+  }
+
+  #home .image {
+    width: 60%;
+    height: 60px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-left: 140px;
+  }
+  
+  #home .image::before {
+    content: '';
+    height: 550%;
+    width: 90%;
+    background: var(--base-color-second);
+    position: absolute;
+    top: -16.8%;
+    left: 16.7%;
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+ }
+
 
 /* large devices: 992 > */
 @media (min-width: 992px) {
