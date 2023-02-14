@@ -296,7 +296,18 @@ nav.show div.icon-close {
   .icon-menu {
     margin-left: -50px;
   }
+
+  home.image::before {
+    background: var(--base-color);
+  }
 }
+
+@media (max-width: 1180px) {
+  a.logo-alt {
+    margin-left: 15px;
+  }  
+  }
+
 
 #home .image img, #home .image::before {
   content: "";
