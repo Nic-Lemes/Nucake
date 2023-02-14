@@ -278,10 +278,24 @@ nav.show div.icon-close {
 
 
 @media (max-width: 425px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
 	#home .image {
 		display: flex;
 		justify-content: center;
+    margin-left: -15px;
 	}
+
+  .logo {
+    margin-left: -15px;
+  }
+
+  .icon-menu {
+    margin-left: -50px;
+  }
 }
 
 #home .image img, #home .image::before {
