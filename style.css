@@ -287,6 +287,13 @@ nav.show div.icon-close {
 		display: flex;
 		justify-content: center;
     margin-left: -15px;
+		position: absolute;
+		width: 300px;
+		height: 400px;
+		top: -10px;
+		left: 175px;
+		align-items: center;
+		justify-content: center;
 	}
 
   .logo {
@@ -297,9 +304,9 @@ nav.show div.icon-close {
     margin-left: -50px;
   }
 
-  home.image::before {
+  /* home.image::before {
     background: var(--base-color);
-  }
+  } */
 }
 
 @media (max-width: 1180px) {
@@ -309,7 +316,7 @@ nav.show div.icon-close {
   }
 
 
-#home .image img, #home .image::before {
+/* #home .image img, #home .image::before {
   content: "";
 	height: 100%;
 	width: 100%;
@@ -329,15 +336,19 @@ nav.show div.icon-close {
 	top: -16.8%;
 	left: 16.7%;
 	z-index: 0;
+} */
+
+#home .image img {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	top: -10px;
+	left: 350px;
+	align-items: center;
+	justify-content: center;
 }
 
 #home .image img {
-	position: relative;
-	width: 400px;
-}
-
-#home .image img,
-#home .image::before {
 	border-radius: 0.25rem;
 }
 
@@ -349,6 +360,7 @@ nav.show div.icon-close {
 
 h2.title {
   font-size: 45px;
+	margin-left: -160px;
 }
 
 #home .text h1 {
@@ -359,7 +371,9 @@ h2.title {
 	font-size: 1.25rem;
 	line-height: 1.5;
 	margin-bottom: 2rem;
+	margin-left: -160px;
 }
+
 
 /*  ------------ ABOUT ------------- */
 #about {
@@ -788,15 +802,4 @@ a.nicolas {
 		margin-left: 140px;
 	}
 
-	#home .image::before {
-		content: "";
-		background: var(--base-color-second);
-		position: absolute;
-		width: 300px;
-		height: 400px;
-		top: -10px;
-		left: 175px;
-		align-items: center;
-		justify-content: center;
-	}
 }
