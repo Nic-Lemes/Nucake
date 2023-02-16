@@ -316,40 +316,22 @@ nav.show div.icon-close {
   }
 
 
-/* #home .image img, #home .image::before {
-  content: "";
-	height: 100%;
-	width: 100%;
-	background: var(--base-color-second);
-	position: absolute;
-	top: 4.8%;
-	left: 10.7%;
-	z-index: 0;
-}
-
-#home .image::before {
-	content: "";
-	height: 100%;
-	width: 100%;
-	background: var(--base-color-second);
-	position: absolute;
-	top: -16.8%;
-	left: 16.7%;
-	z-index: 0;
-} */
-
 #home .image img {
 	position: fixed;
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	top: -10px;
 	left: 350px;
 	align-items: center;
 	justify-content: center;
 }
 
+#button-home {
+	margin-left: -50px;
+}
+
 #home .image img {
-	border-radius: 0.25rem;
+	border-radius: 1rem;
 }
 
 #home .text {
@@ -360,7 +342,8 @@ nav.show div.icon-close {
 
 h2.title {
   font-size: 45px;
-	margin-left: -160px;
+	margin-left: -50px;
+	top: 50px;
 }
 
 #home .text h1 {
@@ -371,7 +354,7 @@ h2.title {
 	font-size: 1.25rem;
 	line-height: 1.5;
 	margin-bottom: 2rem;
-	margin-left: -160px;
+	margin-left: -50px;
 }
 
 
@@ -414,6 +397,10 @@ h2.title {
 #about .text {
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
+}
+
+#h2-about {
+	margin-left: -8px;
 }
 
 p#ola {
