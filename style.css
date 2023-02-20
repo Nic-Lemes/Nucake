@@ -283,17 +283,16 @@ nav.show div.icon-close {
     overflow-x: hidden;
   }
 
-	#home .image {
+	#home img.image {
 		display: flex;
 		justify-content: center;
-    margin-left: -15px;
+    margin-left: -25px;
 		position: absolute;
-		width: 300px;
-		height: 400px;
+		width: 200px;
+		height: 100px;
 		top: -10px;
 		left: 175px;
 		align-items: center;
-		justify-content: center;
 	}
 
   .logo {
@@ -304,9 +303,27 @@ nav.show div.icon-close {
     margin-left: -50px;
   }
 
-  /* home.image::before {
-    background: var(--base-color);
-  } */
+	#home-title {
+		margin-left: 20px;
+		font-size: 1rem;
+	}
+
+	p#home {
+		margin-left: 20px;
+	}
+
+	h2#servicos {
+		margin-left: 20px;
+	}
+
+	h2#testimonials {
+		margin-left: 20px;
+	}	
+	
+	h2#contact {
+		margin-left: 20px;
+	}
+
 }
 
 @media (max-width: 1180px) {
@@ -758,35 +775,4 @@ footer .social a:hover {
 
 a.nicolas {
 	color: #000;
-}
-
-/* large devices: 1023 > */
-@media (min-width: 992px) {
-	:root {
-		--title-font-size: 3rem;
-		--subtitle-font-size: 1.125rem;
-	}
-
-	.container {
-		max-width: 1023px;
-		margin-left: auto;
-		margin-right: auto;
-		width: 100vw;
-	}
-
-	a.logo {
-		margin-left: -200px;
-	}
-
-	div.toggle.icon-menu {
-		margin-right: -200px;
-	}
-
-	#home .image {
-		position: relative;
-		align-items: center;
-		justify-content: center;
-		margin-left: 140px;
-	}
-
 }
