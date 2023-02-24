@@ -46,6 +46,7 @@ body {
 	font-family: var(--body-font);
 	color: var(--text-color);
 	background: var(--body-color);
+	overflow-x: hidden;
 }
 
 #foto-bolo {
@@ -286,13 +287,15 @@ nav.show div.icon-close {
 	#home img.image {
 		display: flex;
 		justify-content: center;
-    margin-left: -25px;
+    margin-left: -10px;
 		position: absolute;
 		width: 200px;
-		height: 100px;
-		top: -10px;
-		left: 175px;
+		height: 200px;
+		top: 100px;
+		left: 140px;
 		align-items: center;
+		border-radius: 20px;
+		box-shadow: 3px 3px 15px 3px var(--base-color);
 	}
 
   .logo {
@@ -303,11 +306,27 @@ nav.show div.icon-close {
     margin-left: -50px;
   }
 
-	#home-title {
-		margin-left: 20px;
-		font-size: 1rem;
+	.text {
+		position: relative;
+		top: 225px;
+		justify-content: center;
+		align-items: center;
 	}
 
+	p#home {
+		display: none;
+	}
+
+	#h2-home {
+		font-size: 2rem;
+		margin-left: 10px;
+		width: 450px;
+	}
+
+	#home {
+		height: 100vh;
+		width: 100vw;
+	}
 
 }
 
@@ -319,13 +338,17 @@ nav.show div.icon-close {
 
 
 #home .image img {
-	position: fixed;
+	display: flex;
+	position: absolute;
 	width: 200px;
 	height: 200px;
 	top: -10px;
 	left: 350px;
 	align-items: center;
 	justify-content: center;
+	border-radius: 20px;
+	border-radius: 20px;
+	box-shadow: 3px 3px 15px 3px var(--base-color);
 }
 
 #button-home {
@@ -572,6 +595,11 @@ p#ola {
 
 #contact ul li i {
 	color: var(--base-color);
+}
+
+h2#contact {
+	margin-left: 1px;
+	width: 450px;
 }
 
 /*  ------------ footer ------------- */
