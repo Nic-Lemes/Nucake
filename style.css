@@ -284,6 +284,26 @@ nav.show div.icon-close {
     overflow-x: hidden;
   }
 
+	.divider-1 {
+		width: 475px;
+		height: 1px;
+		background: linear-gradient(
+			270deg,
+			hsla(var(--hue), 36%, 57%, 1),
+			hsla(var(--hue), 65%, 88%, 0.34)
+		);
+	}
+	
+	.divider-2 {
+		width: 475px;
+		height: 1px;
+		background: linear-gradient(
+			270deg,
+			hsla(var(--hue), 65%, 88%, 0.34),
+			hsla(var(--hue), 36%, 57%, 1)
+		);
+	}
+
 	#home img.image {
 		display: flex;
 		justify-content: center;
@@ -292,7 +312,7 @@ nav.show div.icon-close {
 		width: 200px;
 		height: 200px;
 		top: 100px;
-		left: 140px;
+		left: 145px;
 		align-items: center;
 		border-radius: 20px;
 		box-shadow: 3px 3px 15px 3px var(--base-color);
@@ -313,14 +333,24 @@ nav.show div.icon-close {
 		align-items: center;
 	}
 
+
 	p#home {
 		display: none;
 	}
 
-	#h2-home {
-		font-size: 2rem;
-		margin-left: 10px;
-		width: 450px;
+	h2#h2-home1 {
+		font-size: 1.7rem;
+		width: 390px;
+		align-items: center;
+		justify-content: center;
+		padding: 15px 0px 0px 132px;
+	}
+
+	a#button-home {
+		margin-left: 40px;
+		align-items: center;
+		justify-content: center;
+		margin-top: 15px;
 	}
 
 	#home {
@@ -328,12 +358,79 @@ nav.show div.icon-close {
 		width: 100vw;
 	}
 
+
+	#img-about {
+		margin-left: 100px;
+		height: 340px;
+	}
+
+	h2#h2-about {
+		font-size: 1.8em;
+	}
+
+	.text-about {
+		margin-top: -215px;
+	}
+
+	h2#servicos {
+		margin-top: 135px;
+		margin-left: 140px;
+		font-size: 1.8rem
+	}
+
+	p.subtitle {
+		margin-left: 40px;
+		width: 350px;
+		margin-bottom: 30px;
+	}
+
+	.card {
+		margin-left: 65px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.buttons {
+		margin-left: 40px;
+	}
+
+	h2#contact {
+		margin-top: -270px;
+		font-size: 1.8rem;
+	}
+
+	#button-whatsapp {
+		margin-top: 5px;
+		margin-left: -4px;
+	}
+
+	#icon-mail {
+		margin-top: 0px;
+	}
+
+	div li.icons {
+		margin-top: 200px;
+	}
+
+	footer.section {
+		width: 480px;
+	}
+
+	.logo-footer {
+		margin-left: -15px;
+	}
 }
 
 @media (max-width: 1180px) {
   a.logo-alt {
     margin-left: 15px;
   }  
+
+	p.brand {
+		margin-top: -5px;
+		gap: 16px;
+	}
+
   }
 
 

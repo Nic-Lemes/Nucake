@@ -64,7 +64,7 @@
 
 
           <div class="text">
-            <h2 class="title" id="h2-home">Não sabe embalar amor? Dê um bolo</h2>
+            <h2 class="title" id="h2-home1">Não sabe embalar amor? Dê um bolo</h2>
             <p id="home">Bolos 100% artesanais e feitos com muito amor e carinho.</p>
             <a class="button" id="button-home" href="#contact">Entre em contato</a>
           </div>
@@ -80,34 +80,37 @@
             <img
               src="assets/fotos/foto-nubia.jpg"
               alt="três funcionárias do salão sorrindo"
+              id="img-about"
             />
           </div>
           <div class="text">
-            <h2 class="title" id="h2-about">Quem sou eu?</h2>
-            <strong>
-              <p id="ola">Olá! 👋😄</p>
-            </strong>
-            <br />
-            <p class="p-about">Me chamo Nubia e sou confeiteira a 29 anos.</p>
-            <br />
-            <p class="p-about">
-              Na minha cozinha tudo é feito com muito amor e carinho! Te garanto
-              que utilizo os melhores ingredientes do mercado. Por isso peço que
-              faça sua encomenda com no mínimo mínimo 3 dias de antecedência.
-              Meu trabalho é 100% personalizado e artesanal, tenho certeza que
-              vai amar!
-            </p>
-            <br />
-            <p class="p-about">
-              Com nosso cardapio e tabela de preços abaixo poderá ver que não
-              custa muito embalar e entregar um pouquinho de amor. Acesse nossas
-              redes sociais e veja um pouco mais do meu trabalho.
-            </p>
+            <div class="text-about">
+              <h2 class="title" id="h2-about">Quem sou eu?</h2>
+              <strong>
+                <p id="ola">Olá! 👋😄</p>
+              </strong>
+              <br />
+              <p class="p-about">Me chamo Nubia e sou confeiteira a 29 anos.</p>
+              <br />
+              <p class="p-about">
+                Na minha cozinha tudo é feito com muito amor e carinho! Te garanto
+                que utilizo os melhores ingredientes do mercado. Por isso peço que
+                faça sua encomenda com no mínimo mínimo 3 dias de antecedência.
+                Meu trabalho é 100% personalizado e artesanal, tenho certeza que
+                vai amar!
+              </p>
+              <br />
+              <p class="p-about">
+                Com nosso cardapio e tabela de preços abaixo poderá ver que não
+                custa muito embalar e entregar um pouquinho de amor. Acesse nossas
+                redes sociais e veja um pouco mais do meu trabalho.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      <div class="divider-2"></div>
+      <div class="divider-2" id="divider-2"></div>
 
       <!-- SERVICES -->
       <section class="section" id="services">
@@ -175,67 +178,7 @@
 
       <div class="divider-1"></div>
 
-      <!-- TESTIMONIALS
-      <section class="section" id="testimonials">
-        <div class="container">
-          <header>
-            <h2 class="title" id="testimonials>Depoimentos de quem já comprou comigo</h2>
-          </header>
-          <div class="testimonials swiper">
-            <div class="swiper-wrapper">
-              <div class="testimonial swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span>
-                    Muito obrigada! Estava maravilhoso, super indico seu trabalho. Meus parabéns, todos gostaram.
-                  </p>
-                  <cite>
-                    <img
-                      src="https://randomuser.me/api/portraits/women/24.jpg"
-                      alt="Foto de Gesnilda"
-                    />
-                    Gesnilda
-                  </cite>
-                </blockquote>
-              </div>
 
-              <div class="testimonial swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span>
-                    Comprei e achei maravilhoso! Além de comer com familiares também preseentei amigos, e todos amaram!
-                  </p>
-                  <cite>
-                    <img
-                      src="https://randomuser.me/api/portraits/men/44.jpg"
-                      alt="Foto de Oscar"
-                    />
-                    Oscar
-                  </cite>
-                </blockquote>
-              </div>
-
-              <div class="testimonial swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span>
-                    Parabéns Núbia. Muito bom! Comprei faz pouco tempo, e fiquei com gostinho de quero mais. Muito bem feito. Toda minha família gostou.
-                  </p>
-                  <cite>
-                    <img
-                      src="https://randomuser.me/api/portraits/women/81.jpg"
-                      alt="Foto de Nicole"
-                    />
-                    Nicole
-                  </cite>
-                </blockquote>
-              </div>
-            </div>
-
-            <!-- If we need pagination -->
-          </div>
-        </div>
-      </section> 
 
       <div class="divider-2"></div>
 
@@ -244,12 +187,13 @@
         <div class="container grid">
           <div class="text">
             <h2 class="title" id="contact">Entre em contato com a gente!</h2>
-            <p>
+            <p id="contact">
               Entre em contato comigo, estou á disposição para tirar suas
               dúvidas, ouvir suas críticas e sugestões. Me contate pelo WhatsApp
               ou Telefone.
             </p>
-            <a
+            <a 
+            id="button-whatsapp"
               href="https://api.whatsapp.com/send?phone=+5519994381499&text=Oi! Gostaria de encomendar um bolo?"
               class="button"
               target="_blank"
@@ -259,8 +203,8 @@
 
           <div class="links">
             <ul class="grid">
-              <li><i class="icon-phone"></i> (19) 99438-1499</li>
-              <li>
+              <li class="icons"><i class="icon-phone"></i> (19) 99438-1499</li>
+              <li class="icons" id="icon-mail">
                 <i class="icon-mail"></i>
                 contato@beautysalon.com
               </li>
@@ -275,14 +219,16 @@
     <footer class="section">
       <div class="container grid">
         <div class="brand">
-          <a class="logo logo-alt" href="#home"
-            >Nu<span
-              >Cake
-              <img src="assets/fotos/bolo.png" id="foto-bolo" alt="" /> </span
-          ></a>
-          <p>©2023 Nucake</p>
-          <p>Todos os direitos reservados.</p>
-          <p>
+          <div class="logo-footer">
+            <a class="logo logo-alt" href="#home"
+              >Nu<span
+                >Cake
+                <img src="assets/fotos/bolo.png" id="foto-bolo" alt="" /> </span
+            ></a>
+          </div>
+          <p class="brand">©2023 Nucake</p>
+          <p class="brand">Todos os direitos reservados.</p>
+          <p class="brand"> 
             Site desenvolvido por
             <a
               href="https://github.com/Nic-Lemes"
