@@ -282,7 +282,12 @@ nav.show div.icon-close {
 
   body {
     overflow-x: hidden;
+		width: 100vw;
   }
+
+	div.toggle.icon-menu {
+		margin-right: 79px;
+	}
 
 	.divider-1 {
 		width: 475px;
@@ -309,10 +314,10 @@ nav.show div.icon-close {
 		justify-content: center;
     margin-left: -10px;
 		position: absolute;
-		width: 200px;
-		height: 200px;
+		width: 190px;
+		height: 190px;
 		top: 100px;
-		left: 145px;
+		left: 115px;
 		align-items: center;
 		border-radius: 20px;
 		box-shadow: 3px 3px 15px 3px var(--base-color);
@@ -322,9 +327,6 @@ nav.show div.icon-close {
     margin-left: -15px;
   }
 
-  .icon-menu {
-    margin-left: -50px;
-  }
 
 	.text {
 		position: relative;
@@ -339,18 +341,22 @@ nav.show div.icon-close {
 	}
 
 	h2#h2-home1 {
-		font-size: 1.7rem;
-		width: 390px;
+		font-size: 1.3rem;
+		width: 370px;
 		align-items: center;
 		justify-content: center;
-		padding: 15px 0px 0px 132px;
+		padding: 0px 0px 0px 80px;
 	}
 
-	a#button-home {
-		margin-left: 40px;
+	a#button-home.button {
+		font-size: 14px;
+		width: 180px;
+		height: 46px;
+		margin-left: -25px;
 		align-items: center;
 		justify-content: center;
-		margin-top: 15px;
+		margin-top: -8px;
+		padding: 0px;
 	}
 
 	#home {
@@ -368,40 +374,62 @@ nav.show div.icon-close {
 		font-size: 1.8em;
 	}
 
+	p.p-about {
+		font-size: 15px;
+	}
+
 	.text-about {
 		margin-top: -215px;
+		margin-left: -5px;
+		width: 360px;
 	}
 
 	h2#servicos {
 		margin-top: 135px;
-		margin-left: 140px;
+		margin-left: -5px;
 		font-size: 1.8rem
 	}
 
 	p.subtitle {
-		margin-left: 40px;
+		margin-left: -5px;
 		width: 350px;
 		margin-bottom: 30px;
 	}
 
 	.card {
-		margin-left: 65px;
+		width: 345px;
+		margin-left: 1px;
 		align-items: center;
 		justify-content: center;
 	}
 
 	.buttons {
-		margin-left: 40px;
+		margin-left: -15px;
 	}
 
-	h2#contact {
+	h2#contact.title {
 		margin-top: -270px;
-		font-size: 1.8rem;
+		font-size: 1.4rem;
+		margin-left: -10px;
+	}
+
+	p#contact {
+		margin-left: -10px;
+		width: 350px;
 	}
 
 	#button-whatsapp {
 		margin-top: 5px;
-		margin-left: -4px;
+		margin-left: -10px;
+	}
+
+
+	#contact ul.grid {
+		margin-top: -50px;
+	}
+
+	#icon-phone {
+		margin-top: 0px;
 	}
 
 	#icon-mail {
@@ -416,8 +444,22 @@ nav.show div.icon-close {
 		width: 480px;
 	}
 
-	.logo-footer {
+	div.social.grid {
+		margin-top: -50px;
+		margin-left: 260px;
+	}
+
+	div.logo-footer {
 		margin-left: -15px;
+		margin-top: -10px;
+	}
+
+	div.brand {
+		height: 150px;
+	}
+
+	div.text-footer {
+		margin-top: 40px;
 	}
 }
 
