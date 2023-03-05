@@ -446,7 +446,7 @@ nav.show div.icon-close {
 	footer.section {
 		margin-top: 10px;
 		width: 480px;
-		height: 170px;
+		height: 200px;
 	}
 
 	div.social.grid {
@@ -458,10 +458,6 @@ nav.show div.icon-close {
 		margin-left: -15px;
 		margin-top: -10px;
 	}
-
-	/* div.brand {
-		height: 70px;
-	} */
 
 	div.text-footer {
 		margin-top: 40px;
