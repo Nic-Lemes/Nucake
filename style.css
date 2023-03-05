@@ -459,9 +459,9 @@ nav.show div.icon-close {
 		margin-top: 20px;
 	}
 
-	div.text-footer {
+	/* div.text-footer {
 		margin-top: 40px;
-	}
+	} */
 }
 
 @media (max-width: 1180px) {
