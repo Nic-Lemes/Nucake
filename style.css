@@ -401,13 +401,13 @@ nav.show div.icon-close {
 
 	.card {
 		width: 345px;
-		margin-left: 1px;
+		margin-left: 0px;
 		align-items: center;
 		justify-content: center;
 	}
 
 	.buttons {
-		margin-left: -15px;
+		margin-left: 0px;
 	}
 
 	h2#contact.title {
