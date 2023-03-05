@@ -282,7 +282,6 @@ nav.show div.icon-close {
 
   body {
     overflow-x: hidden;
-		width: 100vw;
   }
 
 	div.toggle.icon-menu {
@@ -352,10 +351,10 @@ nav.show div.icon-close {
 		font-size: 14px;
 		width: 180px;
 		height: 46px;
-		margin-left: -25px;
+		margin-left: -19px;
 		align-items: center;
 		justify-content: center;
-		margin-top: -8px;
+		margin-top: 3px;
 		padding: 0px;
 	}
 
