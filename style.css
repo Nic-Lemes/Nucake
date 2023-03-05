@@ -308,6 +308,10 @@ nav.show div.icon-close {
 		);
 	}
 
+	section #home.section {
+		height: 300px;
+	}
+
 	#home img.image {
 		display: flex;
 		justify-content: center;
