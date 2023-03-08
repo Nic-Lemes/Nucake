@@ -280,7 +280,7 @@ nav.show div.icon-close {
 
 @media (max-width: 425px) {
 
-  body {
+  html {
     overflow-x: hidden;
   }
 
