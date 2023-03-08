@@ -308,9 +308,6 @@ nav.show div.icon-close {
 		);
 	}
 
-	section #home.section {
-		height: 700px;
-	}
 
 	#home img.image {
 		display: flex;
@@ -355,7 +352,7 @@ nav.show div.icon-close {
 		font-size: 14px;
 		width: 180px;
 		height: 46px;
-		margin-left: 0px;
+		margin-left: 5px;
 		align-items: center;
 		justify-content: center;
 		margin-top: 3px;
@@ -363,7 +360,7 @@ nav.show div.icon-close {
 	}
 
 	#home {
-		height: 60vh;
+		height: 40vh;
 		width: 100vw;
 	}
 
